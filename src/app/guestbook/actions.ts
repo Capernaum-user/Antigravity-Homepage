@@ -33,3 +33,4 @@ export async function addMessage(formData: FormData) {
     return { error: 'Failed to add message. DB might be unreachable.' };
   }
 }
+
